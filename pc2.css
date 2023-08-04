@@ -1,0 +1,32 @@
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: orange;
+}
+a:active
+{
+    color: crimson;
+}
+a:hover
+{
+    color: aqua;
+}
+p:nth-child(2)
+{
+    color: aqua;
+}
+p::first-letter
+{
+    color: blueviolet;
+}
+::selection
+{
+    background-color: yellow;
+    color: red;
+}
+h1{
+    display: inline;
+}
